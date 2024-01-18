@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Music Player</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        <meta name="viewport" content="Width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <nav>
+            <div id="navbar">
+              <div id="logo">
+                <a href="#"><img src="assets/logo.png"></a>
+              </div>
+              <div id="fav">
+                <a href="#"><span>Favourites</span></a>
+              </div>
+              <div id="search-container">
+                <button id="btn1"><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></button>
+        
+                <form>
+        
+                  <input type="text" placeholder="Search">
+        
+                </form>
+                <button id="btn2"><a href="#"><i class="fa-solid fa-microphone"></i></a></button>
+        
+              </div>
+              <div id="bell-icon">
+                <button id="btn2"><a href="#"><i class="fa-solid fa-bell"></i></a></button>
+              </div>
+        
+              <div id="login">
+                <a href="#"><img src="assets/profilepic.jpg"></a>
+              </div>
+        
+          </nav>
+          <main>
+            <div id="right-side">
+              <div id="header">
+                <p>Queue</p>
+                <p style="color:cornflowerblue ">queue <i class="fa-solid fa-chevron-down" style="font-size: 15px;"></i></p>
+        
+              </div>
+              <div id="queue-songs">
+                <div id="queue-song-container">
+                  <div id="song-div">
+                    <div id='queue-song-img'>
+                      <img src="assets/ayat.jpg">
+                    </div>
+                    <div id="queue-song-info">
+                      <p style="font-size: 16px;">Aayat</p>
+                      <p>Feb 8, 2023</p>
+        
+                    </div>
+                    <div id="like-icon"><i class="fa-regular fa-heart"></i></div>
+                  </div>
+                  <div id="song-div">
+                    <div id='queue-song-img'>
+                      <img src="assets/aaoge-jab-tum.jpg">
+                    </div>
+                    <div id="queue-song-info">
+                      <p style="font-size: 16px;">Aaoge jab tum</p>
+                      <p>Feb 8, 2023</p>
+        
+                    </div>
+                    <div id="like-icon"><i class="fa-regular fa-heart"></i></div>
+                  </div>
+                  <div id="song-div">
+                    <div id='queue-song-img'>
+                      <img src="assets/closer.jpg">
+                    </div>
+                    <div id="queue-song-info">
+                      <p style="font-size: 16px;">Closer</p>
+                      <p>Feb 8, 2023</p>
+        
+                    </div>
+                    <div id="like-icon"><i class="fa-regular fa-heart"></i></div>
+                  </div>
+                  <div id="song-div">
+                    <div id='queue-song-img'>
+                      <img src="assets/dance monkey.jpg">
+                    </div>
+                    <div id="queue-song-info">
+                      <p style="font-size: 16px;">Dance monkey</p>
+                      <p>Feb 8, 2023</p>
+        
+                    </div>
+                    <div id="like-icon"><i class="fa-regular fa-heart"></i></div>
+                  </div>
+                  <div id="song-div">
+                    <div id='queue-song-img'>
+                      <img src="assets/phir-le-aya.jpg">
+                    </div>
+                    <div id="queue-song-info">
+                      <p style="font-size: 16px;">Phir le aaya dil</p>
+                      <p>Feb 8, 2023</p>
+        
+                    </div>
+                    <div id="like-icon"><i class="fa-regular fa-heart"></i></div>
+                  </div>
+                  <div id="song-div">
+                    <div id='queue-song-img'>
+                      <img src="assets/pasoori.jpg">
+                    </div>
+                    <div id="queue-song-info">
+                      <p style="font-size: 16px;">Pasoori</p>
+                      <p>Feb 8, 2023</p>
+        
+                    </div>
+                    <div id="like-icon"><i class="fa-regular fa-heart"></i></div>
+                  </div>
+                  <div id="song-div">
+                    <div id='queue-song-img'>
+                      <img src="assets/enna-sona.jpg">
+                    </div>
+                    <div id="queue-song-info">
+                      <p style="font-size: 16px;">Enna sona</p>
+                      <p>Feb 8, 2023</p>
+        
+                    </div>
+                    <div id="like-icon"><i class="fa-regular fa-heart"></i></div>
+                  </div>
+                  <div id="song-div">
+                    <div id='queue-song-img'>
+                      <img src="assets/shape-of-you.jpg">
+                    </div>
+                    <div id="queue-song-info">
+                      <p style="font-size: 16px;">Shape of you</p>
+                      <p>Feb 8, 2023</p>
+        
+                    </div>
+                    <div id="like-icon"><i class="fa-regular fa-heart"></i></div>
+                  </div>
+                  <div id="song-div">
+                    <div id='queue-song-img'>
+                      <img src="assets/senorita.jpg">
+                    </div>
+                    <div id="queue-song-info">
+                      <p style="font-size: 16px;">Senorita</p>
+                      <p>Feb 8, 2023</p>
+                        
+                    </div>
+                    <div id="like-icon"><i class="fa-regular fa-heart"></i></div>
+                  </div>
+                  <div id="song-div">
+                    <div id='queue-song-img'>
+                      <img src="assets/treat-u-better.jpg">
+                    </div>
+                    <div id="queue-song-info">
+                      <p style="font-size: 16px;">Treat you better</p>
+                      <p>Feb 8, 2023</p>
+        
+                    </div>
+                    <div id="like-icon"><i class="fa-regular fa-heart"></i></div>
+                  </div>
+                  <div id="song-div">
+                    <div id='queue-song-img'>
+                      <img src="assets/ayat.jpg">
+                    </div>
+                    <div id="queue-song-info">
+                      <p style="font-size: 16px;">Aayat</p>
+                      <p>Feb 8, 2023</p>
+        
+                    </div>
+                    <div id="like-icon"><i class="fa-regular fa-heart"></i></div>
+                  </div>
+                  <div id="song-div">
+                    <div id='queue-song-img'>
+                      <img src="assets/aaoge-jab-tum.jpg">
+                    </div>
+                    <div id="queue-song-info">
+                      <p style="font-size: 16px;">Aaoge jab tum</p>
+                      <p>Feb 8, 2023</p>
+        
+                    </div>
+                    <div id="like-icon"><i class="fa-regular fa-heart"></i></div>
+                  </div>
+                  <div id="song-div">
+                    <div id='queue-song-img'>
+                      <img src="assets/closer.jpg">
+                    </div>
+                    <div id="queue-song-info">
+                      <p style="font-size: 16px;">Closer</p>
+                      <p>Feb 8, 2023</p>
+        
+                    </div>
+                    <div id="like-icon"><i class="fa-regular fa-heart"></i></div>
+                  </div>
+                  <div id="song-div">
+                    <div id='queue-song-img'>
+                      <img src="assets/dance monkey.jpg">
+                    </div>
+                    <div id="queue-song-info">
+                      <p style="font-size: 16px;">Dance monkey</p>
+                      <p>Feb 8, 2023</p>
+        
+                    </div>
+                    <div id="like-icon"><i class="fa-regular fa-heart"></i></div>
+                  </div>
+                  <div id="song-div">
+                    <div id='queue-song-img'>
+                      <img src="assets/phir-le-aya.jpg">
+                    </div>
+                    <div id="queue-song-info">
+                      <p style="font-size: 16px;">Phir le aaya dil</p>
+                      <p>Feb 8, 2023</p>
+        
+                    </div>
+                    <div id="like-icon"><i class="fa-regular fa-heart"></i></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="left-side">
+              <!-- main display section -->
+              <div id="title-cards">
+                <div id="song">
+                  <img src="assets/img1.jpg">
+                </div>
+                <div id="song">
+                  <img src="assets/img2.jpg">
+                </div>
+                <div id="song">
+                  <img src="assets/img3.jpg">
+                </div>
+              </div>
+              <!-- latest song -->
+              <div id="latest-release">
+                <div id="heading">Latest Release</div>
+                <div id="song-cards">
+                  <div id="lupper">
+                    <div id="Lsong">
+                      <div id="song-img">
+                        <i class="fa-solid fa-play" id="i"></i>
+                      </div>
+                      <div id="info">
+                        <p style="font-size: 16px;">Music</p>
+                        <p>Feb 08, 2023</p>
+                      </div>
+                      <div id="menu-btn">
+                        <i class="fa-solid fa-ellipsis"></i>
+                      </div>
+                    </div>
+                    <div id="Lsong">
+                      <div id="song-img">
+                        <i class="fa-solid fa-play"></i>
+                      </div>
+                      <div id="info">
+                        <p style="font-size: 16px;">Music</p>
+                        <p>Feb 08, 2023</p>
+                      </div>
+                      <div id="menu-btn">
+                        <i class="fa-solid fa-ellipsis"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="llower">
+                    <div id="Lsong">
+                      <div id="song-img">
+                        <i class="fa-solid fa-play"></i>
+                      </div>
+                      <div id="info">
+                        <p style="font-size: 16px;">Music</p>
+                        <p>Feb 08, 2023</p>
+                      </div>
+                      <div id="menu-btn">
+                        <i class="fa-solid fa-ellipsis"></i>
+                      </div>
+                    </div>
+                    <div id="Lsong">
+                      <div id="song-img">
+                        <i class="fa-solid fa-play"></i>
+                      </div>
+                      <div id="info">
+                        <p style="font-size: 16px;">Music</p>
+                        <p>Feb 08, 2023</p>
+                      </div>
+                      <div id="menu-btn">
+                        <i class="fa-solid fa-ellipsis"></i>
+                      </div>
+                    </div>
+                  </div>
+        
+                </div>
+              </div>
+              <!-- ------- Popular Artists ---------- -->
+              <div id="popular-artists">
+                <div id="heading">Popular Artists</div>
+                <div id="artists">
+                <div class="art">
+                    <div class=" art1">
+                        <i class="fa-solid fa-play"></i>
+                      </div>
+                      <p>Ed Sheeran</p>
+                </div>
+                <div class="art">
+                    <div class=" art2">
+                        <i class="fa-solid fa-play"></i>
+                      </div>
+                      <p>Charlie puth</p>
+                </div>
+                <div class="art">
+                    <div class=" art3">
+                        <i class="fa-solid fa-play"></i>
+                      </div>
+                      <p>Coldplay</p>
+                </div>
+                <div class="art">
+                    <div class=" art4">
+                        <i class="fa-solid fa-play"></i>
+                      </div>
+                      <p>Selena</p>
+                </div>
+                <div class="art">
+                    <div class=" art5">
+                        <i class="fa-solid fa-play"></i>
+                      </div>
+                      <p>Imagin Dragon</p>
+                </div>
+                </div>
+              </div>
+              <!-- -------- Stations ------- -->
+              <div id="stations">
+                <div class="stat stat1">
+                  <p>Pop</p>
+                </div>
+                <div class="stat stat2">
+                  <p>Chill</p>
+                </div>
+                <div class="stat stat3">
+                  <p>Retro</p>
+                </div>
+                <div class="stat stat4">
+                  <p>Love</p>
+                </div>
+                <div class="stat stat5">
+                  <p>Party</p>
+                </div>
+        
+              </div>
+              <!-- ------types------ -->
+              <div id="Geners">
+                <div class="gen">
+                    <div class="gen-all gen1">
+                        <p>Electronic</p>
+                    </div>
+                </div>
+                <div class="gen">
+                    <div class="gen-all gen2"> 
+                        <p>Road trip</p>
+                    </div>
+                  
+                </div>
+                <div class="gen">
+                    <div class="gen-all gen3"> 
+                        <p>Retro</p>
+                    </div>
+                </div>
+        
+              </div>
+              <!-- ---------- latest english -------- -->
+              <div id="latest-song">
+                <div id="heading">Latest English</div>
+                <div id="L">
+                  <div id="L-div">
+                    <img src="assets/closer.jpg">
+                    <p>Closer</p>
+                    <p>Feb 8, 2023</p>
+                  </div>
+                  <div id="L-div">
+                    <img src="assets/dance monkey.jpg">
+                    <p>Dance monkey</p>
+                    <p>Feb 8, 2023</p>
+                  </div>
+                  <div id="L-div">
+                    <img src="assets/treat-u-better.jpg">
+                    <p>Treat you better</p>
+                    <p>Feb 8, 2023</p>
+                  </div>
+                  <div id="L-div">
+                    <img src="assets/shape-of-you.jpg">
+                    <p>Shape of you</p>
+                    <p>Feb 8, 2023</p>
+                  </div>
+                  <div id="L-div">
+                    <img src="assets/senorita.jpg">
+                    <p>Senorita</p>
+                    <p>Feb 8, 2023</p>
+                  </div>
+                </div>
+              </div>
+              <!-- ------ latest hindi------ -->
+              <div id="latest-song">
+                <div id="heading">Latest Hindi</div>
+                <div id="L">
+                  <div id="L-div">
+                    <img src="assets/enna-sona.jpg">
+                    <p>Enna sona</p>
+                    <p>Feb 8, 2023</p>
+                  </div>
+                  <div id="L-div">
+                    <img src="assets/ayat.jpg">
+                    <p>Ayat</p>
+                    <p>Feb 8, 2023</p>
+                  </div>
+                  <div id="L-div">
+                    <img src="assets/aaoge-jab-tum.jpg">
+                    <p>Aaoge jab tum</p>
+                    <p>Feb 8, 2023</p>
+                  </div>
+                  <div id="L-div">
+                    <img src="assets/pasoori.jpg">
+                    <p>Pasoori</p>
+                    <p>Feb 8, 2023</p>
+                  </div>
+                  <div id="L-div">
+                    <img src="assets/phir-le-aya.jpg">
+                    <p>Phir le aaya</p>
+                    <p>Feb 8, 2023</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </main>
+          <footer>
+            <div class="player">
+                <div class="play-img">
+                    <img src="assets/ayat.jpg">
+                </div>
+                <div class="play-info">
+                    <span style="font-size: 19px; font-weight: bold">Aayat</span>
+                    <span>8 Feb, 2023</span>
+                </div>
+                <div class="play-controls">
+                  <div class="p-icons">
+                    <i class="fa-solid fa-shuffle"></i>
+                    <i class="fa-solid fa-backward-step"></i>
+                    <i class="fa-regular fa-circle-pause"></i>
+                    <i class="fa-solid fa-forward-step"></i>
+                    <i class="fa-solid fa-rotate-right"></i>
+                  </div>
+                  <div class="playing">
+                    <p>0:00</p>
+                    <input type="range">
+                    <p>4:44</p>
+                  </div>
+                  
+                </div>
+                <div class="other-icons">
+                  <i class="fa-solid fa-bars"></i>
+                  <i class="fa-solid fa-laptop"></i>
+                  <i class="fa-solid fa-volume"></i>
+                  <input type="range">
+                  <i class="fa-solid fa-expand"></i>
+                </div>
+            </div>
+          </footer>
+          <script src="https://kit.fontawesome.com/0123ffa908.js" crossorigin="anonymous"></script>
+
+    </body>
+</html>
